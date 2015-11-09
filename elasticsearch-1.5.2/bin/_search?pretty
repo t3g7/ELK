@@ -1,0 +1,38 @@
+{
+  "took" : 20,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 6,
+    "successful" : 6,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 4,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : ".kibana",
+      "_type" : "config",
+      "_id" : "4.0.2",
+      "_score" : 1.0,
+      "_source":{"buildNum":6004}
+    }, {
+      "_index" : "logstash-2015.06.04",
+      "_type" : "logs",
+      "_id" : "AU2-6WB3HUa8ODBNIELr",
+      "_score" : 1.0,
+      "_source":{"message":"this is a test for logstash and elasticsearch","@version":"1","@timestamp":"2015-06-04T14:11:15.189Z","host":"francois-VirtualBox"}
+    }, {
+      "_index" : "logstash-2015.06.04",
+      "_type" : "logs",
+      "_id" : "AU2-6RVrHUa8ODBNIELp",
+      "_score" : 1.0,
+      "_source":{"message":"hi","@version":"1","@timestamp":"2015-06-04T14:10:47.046Z","host":"francois-VirtualBox"}
+    }, {
+      "_index" : "logstash-2015.06.04",
+      "_type" : "logs",
+      "_id" : "AU2-6SMcHUa8ODBNIELq",
+      "_score" : 1.0,
+      "_source":{"message":"hi","@version":"1","@timestamp":"2015-06-04T14:10:59.479Z","host":"francois-VirtualBox"}
+    } ]
+  }
+}
