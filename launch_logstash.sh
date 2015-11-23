@@ -1,7 +1,5 @@
 #!/bin/bash
 
-if($1 != null) then
-    ./logstash-1.5.0/bin/logstash -f $1 &
-else
-    ./logstash-1.5.0/bin/logstash &
-fi
+curl -XDELETE localhost:9200/logstash-twitter-bis
+
+./logstash-1.5.0/bin/logstash -f tweettxt.conf &
