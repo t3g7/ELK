@@ -1,5 +1,4 @@
 *.log.*
 *.json
-elasticsearch-1.5.2/data/*
-elasticsearch-1.5.2/logs/*
+elasticsearch-1.5.2*
 *~
