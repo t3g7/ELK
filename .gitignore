@@ -1,5 +1,5 @@
 *.log.*
 *.json
-elasticsearch-1.5.2/*
-logstash-1.5.0/*
+elasticsearch*
+logstash*
 *~
