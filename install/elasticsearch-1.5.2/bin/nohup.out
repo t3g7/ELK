@@ -1,0 +1,26 @@
+[2015-06-11 10:56:02,007][INFO ][node                     ] [Agon] version[1.5.2], pid[3786], build[62ff986/2015-04-27T09:21:06Z]
+[2015-06-11 10:56:02,008][INFO ][node                     ] [Agon] initializing ...
+[2015-06-11 10:56:02,019][INFO ][plugins                  ] [Agon] loaded [], sites []
+[2015-06-11 10:56:05,801][INFO ][node                     ] [Agon] initialized
+[2015-06-11 10:56:05,802][INFO ][node                     ] [Agon] starting ...
+[2015-06-11 10:56:05,929][INFO ][transport                ] [Agon] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/10.0.2.15:9300]}
+[2015-06-11 10:56:05,955][INFO ][node                     ] [Agon] stopping ...
+[2015-06-11 10:56:05,984][INFO ][discovery                ] [Agon] elasticsearch/_OxoI_oWRfa9Fg3Fc9o79g
+[2015-06-11 10:56:05,999][INFO ][node                     ] [Agon] stopped
+[2015-06-11 10:56:05,999][INFO ][node                     ] [Agon] closing ...
+[2015-06-11 10:56:06,011][INFO ][node                     ] [Agon] closed
+[2015-06-11 10:56:12,889][INFO ][node                     ] [Punisher 2099] version[1.5.2], pid[3824], build[62ff986/2015-04-27T09:21:06Z]
+[2015-06-11 10:56:12,890][INFO ][node                     ] [Punisher 2099] initializing ...
+[2015-06-11 10:56:12,903][INFO ][plugins                  ] [Punisher 2099] loaded [], sites []
+[2015-06-11 10:56:16,707][INFO ][node                     ] [Punisher 2099] initialized
+[2015-06-11 10:56:16,708][INFO ][node                     ] [Punisher 2099] starting ...
+[2015-06-11 10:56:16,869][INFO ][transport                ] [Punisher 2099] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/10.0.2.15:9300]}
+[2015-06-11 10:56:16,916][INFO ][discovery                ] [Punisher 2099] elasticsearch/Df86poHvTt6hs882QEyu4g
+[2015-06-11 10:56:20,726][INFO ][cluster.service          ] [Punisher 2099] new_master [Punisher 2099][Df86poHvTt6hs882QEyu4g][francois-VirtualBox][inet[/10.0.2.15:9300]], reason: zen-disco-join (elected_as_master)
+[2015-06-11 10:56:20,838][INFO ][http                     ] [Punisher 2099] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/10.0.2.15:9200]}
+[2015-06-11 10:56:20,838][INFO ][node                     ] [Punisher 2099] started
+[2015-06-11 10:56:21,908][INFO ][gateway                  ] [Punisher 2099] recovered [2] indices into cluster_state
+[2015-06-11 10:56:30,064][INFO ][node                     ] [Punisher 2099] stopping ...
+[2015-06-11 10:56:30,153][INFO ][node                     ] [Punisher 2099] stopped
+[2015-06-11 10:56:30,153][INFO ][node                     ] [Punisher 2099] closing ...
+[2015-06-11 10:56:30,159][INFO ][node                     ] [Punisher 2099] closed

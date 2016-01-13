@@ -1,0 +1,4 @@
+---
+BUNDLE_PATH: /Users/Benjamin/Documents/git/t3g7/ELK/logstash-1.5.0/vendor/bundle
+BUNDLE_WITHOUT: build:development
+BUNDLE_GEMFILE: /Users/Benjamin/Documents/git/t3g7/ELK/logstash-1.5.0/Gemfile
