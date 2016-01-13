@@ -1,0 +1,16 @@
+logstash:
+  image: logstash:latest
+  command: logstash -f /etc/logstash/conf.d/logstash.conf
+  volumes:
+    - ./logstash/conf:/etc/logstash/conf.d
+    - ./logstash/data:/etc/logstash/data
+  links:
+    - elasticsearch
+  ports:
+    - "5000:5000"
+
+elasticsearch:
+  image: elasticsearch:latest
+  ports:
+    - "9200:9200"
+    - "9300:9300"

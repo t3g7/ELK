@@ -1,4 +1,0 @@
----
-BUNDLE_PATH: /home/francois/Documents/Travail/GLRT/ELK/logstash-1.5.0/vendor/bundle
-BUNDLE_WITHOUT: build:development
-BUNDLE_GEMFILE: /home/francois/Documents/Travail/GLRT/ELK/logstash-1.5.0/Gemfile
